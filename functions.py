@@ -54,7 +54,7 @@ def play_audio(option):
     # Quit pygame
     pygame.quit()
     
-
+    
 class Card:
     def __init__(self, cursor:sqlite3.Cursor, card_id):
         self.balance = 0
